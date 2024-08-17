@@ -26,11 +26,11 @@ body {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
+        color: #2e2f42;
     
         /* line-height: 24px; */
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: #2e2f42;
 }
 
 .navigation > li :hover {
@@ -46,14 +46,15 @@ address {
         font-weight: 400;
         font-size: 16px;
         font-style: normal;
-    
+        color: #434455;
+
         /* line-height: 24px; */
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: #434455;
+        
 }
 
-.address >l i :hover {
+.address >li :hover {
     color: #404bbf;
 }
 
@@ -89,14 +90,43 @@ address {
             color: #fff;       
 } 
 
-h2 {
+.section2 > ul > li > h3 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #2e2f42;
+
+        /* line-height: 24px; */
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        
+}
+
+.section2>ul>li>p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+
+    /* line-height: 24px; */
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    
+}
+
+.section3 {
+    background: #f4f4fd;
+}
+
+.team {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-    
+        color: #2e2f42;
+        
         /* line-height: 40px; */
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2e2f42;
+        
 }
