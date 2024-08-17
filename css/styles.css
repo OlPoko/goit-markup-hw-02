@@ -1,0 +1,62 @@
+h1 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        /* line-height: 60px; */
+            line-height: 107%;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #fff;      
+            background: #2e2f42;
+    }
+
+button {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+        font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+        
+            /* line-height: 24px; */
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: #fff;
+            
+}   
+nav {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}  
+
+address {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+
+}
+.link > ul > li :hover {
+    color: red;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+    
+        /* line-height: 40px; */
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
