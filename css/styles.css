@@ -1,16 +1,82 @@
-h1 {
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:  #FFFFFF;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    
+        /* line-height: 21px; */
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.wslogo{
+        color: #2e2f42;  
+}
+
+.navigation > li {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.navigation > li :hover {
+    color: #404bbf;
+}
+
+.navigation > li :focus {
+    color: #404bbf;
+}
+
+address {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.address >l i :hover {
+    color: #404bbf;
+}
+
+.address > li :focus {
+    color: #404bbf;
+}
+
+.section1 {
+    background: #2e2f42;
+    }
+.paragraf {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
+    
         /* line-height: 60px; */
-            line-height: 107%;
-            letter-spacing: 0.02em;
-            text-align: center;
-            color: #fff;      
-            background: #2e2f42;
-    }
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
 
-button {
+.button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
         font-family: "Roboto", sans-serif;
@@ -20,34 +86,8 @@ button {
             /* line-height: 24px; */
             line-height: 150%;
             letter-spacing: 0.04em;
-            color: #fff;
-            
-}   
-nav {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}  
-
-address {
-    font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #434455;
-
-}
-.link > ul > li :hover {
-    color: red;
-}
+            color: #fff;       
+} 
 
 h2 {
     font-family: "Roboto", sans-serif;
