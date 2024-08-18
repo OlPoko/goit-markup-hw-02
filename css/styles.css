@@ -1,6 +1,6 @@
 
 
-body {
+.body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:  #FFFFFF;
@@ -22,26 +22,27 @@ body {
         color: #2e2f42;  
 }
 
-.navigation > li {
+.sudio {
     font-family: "Roboto", sans-serif;
+        color: #2e2f42;
         font-weight: 500;
         font-size: 16px;
-        color: #2e2f42;
+        
     
         /* line-height: 24px; */
         line-height: 150%;
         letter-spacing: 0.02em;
 }
 
-.navigation > li :hover {
+.sudio:hover {
     color: #404bbf;
 }
 
-.navigation > li :focus {
+.sudio:focus {
     color: #404bbf;
 }
 
-address {
+.contact {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -50,19 +51,19 @@ address {
 
         /* line-height: 24px; */
         line-height: 150%;
-        letter-spacing: 0.02em;
-        
+        letter-spacing: 0.02em; 
+
 }
 
-.address >li :hover {
+.contact:hover {
     color: #404bbf;
 }
 
-.address > li :focus {
+.contact:focus {
     color: #404bbf;
 }
 
-.section1 {
+.section-main {
     background: #2e2f42;
     }
 .paragraf {
@@ -77,9 +78,9 @@ address {
         color: #fff;
 }
 
-.button {
+.butt {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+        background: #4D5AE5;
         font-family: "Roboto", sans-serif;
             font-weight: 500;
             font-size: 16px;
@@ -89,6 +90,17 @@ address {
             letter-spacing: 0.04em;
             color: #fff;       
 } 
+
+.butt:hover {
+    color: #404BBF;
+}
+.butt:focus {
+    color: #404bbf;
+}
+.butt {
+    cursor: pointer;
+}
+
 
 .section2 > ul > li > h3 {
     font-family: "Roboto", sans-serif;
@@ -123,7 +135,6 @@ address {
         font-weight: 700;
         font-size: 36px;
         color: #2e2f42;
-        
         /* line-height: 40px; */
         line-height: 111%;
         letter-spacing: 0.02em;
