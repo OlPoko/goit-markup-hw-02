@@ -15,7 +15,7 @@ body {
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;color: #f4f4fd
+        color: #4d5ae5;
 }
 
 .wslogo{
@@ -106,7 +106,7 @@ body {
 }
 
 
-.Advantages {
+.advantages {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
@@ -130,8 +130,12 @@ body {
     
 }
 
-.section3 {
+.sector {
     background: #f4f4fd;
+}
+
+.image {
+    background-color: #FFFFFF;
 }
 
 .team {
