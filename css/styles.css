@@ -15,7 +15,7 @@ body {
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color: #4d5ae5;color: #f4f4fd
 }
 
 .wslogo{
@@ -163,6 +163,7 @@ body {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
+        
     
         /* line-height: 24px; */
         line-height: 150%;
@@ -181,6 +182,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portf {
@@ -218,4 +220,8 @@ background: #2e2f42;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+}
+
+.wslogo-foot {
+    color: #f4f4fd;
 }
