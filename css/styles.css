@@ -1,6 +1,6 @@
 
 
-.body {
+body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:  #FFFFFF;
@@ -55,6 +55,10 @@
 
 }
 
+.address-contact {
+    font-style: normal;
+}
+
 .contact:hover {
     color: #404bbf;
 }
@@ -92,17 +96,17 @@
 } 
 
 .butt:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .butt:focus {
-    color: #404bbf;
+    background-color: #404BBF;
 }
 .butt {
     cursor: pointer;
 }
 
 
-.section2 > ul > li > h3 {
+.Advantages {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
@@ -114,7 +118,7 @@
         
 }
 
-.section2>ul>li>p {
+.descr {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -139,5 +143,79 @@
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
         
+}
+
+.name {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.prof {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+.team-portf {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+    
+        /* line-height: 40px; */
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portf {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    /* line-height: 24px; */
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.spec {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.foot {
+background: #2e2f42;
+}
+.footdescr {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
