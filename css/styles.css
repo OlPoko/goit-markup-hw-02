@@ -23,6 +23,7 @@ ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        
 }
 
 .wslogo{
@@ -248,7 +249,6 @@ background: #2e2f42;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        text-decoration: none;
     
         /* line-height: 21px; */
         line-height: 117%;
